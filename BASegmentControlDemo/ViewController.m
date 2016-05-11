@@ -14,8 +14,6 @@
 
 @interface ViewController ()
 
-@property (nonatomic,strong) UILabel *contentLabel;
-
 @property (nonatomic, strong) view1 *views1;
 @property (nonatomic, strong) view2 *views2;
 @property (nonatomic, strong) view3 *views3;
@@ -41,19 +39,6 @@
     self.views3.hidden = NO;
     self.views4.hidden = NO;
 
-}
-
-#pragma mark - setter/getter
-- (UILabel *)contentLabel
-{
-    if (!_contentLabel)
-    {
-        _contentLabel = [[UILabel alloc] initWithFrame:CGRectMake(50, 100, 400, 100)];
-        _contentLabel.textColor = [UIColor redColor];
-        _contentLabel.font = [UIFont systemFontOfSize:24];
-        [self.view addSubview:self.contentLabel];
-    }
-    return _contentLabel;
 }
 
 // 随机颜色
