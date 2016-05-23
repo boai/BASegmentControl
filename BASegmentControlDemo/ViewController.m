@@ -66,7 +66,7 @@
     if (!_segmentedControl)
     {
         _segmentedControl = [[HMSegmentedControl alloc] initWithFrame:CGRectMake(0, 64, KSCREEN_WIDTH, 40)];
-        _segmentedControl.sectionTitles = @[@"boai", @"博爱", @"博爱3", @"博爱4"];
+        _segmentedControl.sectionTitles = @[@"boai", @"博爱", @"博爱3", @"博爱411111111111"];
         _segmentedControl.autoresizingMask = UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleWidth;
         _segmentedControl.selectedSegmentIndex = 0;
         _segmentedControl.backgroundColor = [UIColor whiteColor];
@@ -74,6 +74,7 @@
         _segmentedControl.selectedTitleTextAttributes = @{NSForegroundColorAttributeName : KCOLOR(29, 192, 184, 1.0)};
         _segmentedControl.selectionIndicatorColor = KCOLOR(29, 192, 184, 1.0);
         _segmentedControl.selectionIndicatorHeight = 2.0f;
+        _segmentedControl.segmentWidthStyle = HMSegmentedControlSegmentWidthStyleDynamic;
         _segmentedControl.selectionStyle = HMSegmentedControlSelectionStyleFullWidthStripe;
         _segmentedControl.selectionIndicatorLocation = HMSegmentedControlSelectionIndicatorLocationDown;
         _segmentedControl.verticalDividerEnabled = YES;
