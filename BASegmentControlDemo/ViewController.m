@@ -80,7 +80,6 @@
         _segmentedControl.verticalDividerColor = [UIColor lightGrayColor];
         _segmentedControl.verticalDividerWidth = 1.0f;
         
-        
         [self.view addSubview:_segmentedControl];
         
         __weak typeof(self) weakSelf = self;
