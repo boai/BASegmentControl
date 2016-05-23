@@ -62,6 +62,7 @@
 
 static const CGFloat BA_HeightOfTopScrollView       = 44.0f;
 static const CGFloat BA_ImagesHeightOfTopScrollView = 54.0f;
+#define kColor(r , g ,b) [UIColor colorWithRed:(r)  green:(g)  blue:(b) alpha:1]
 
 @interface BASegmentControl()
 
@@ -339,7 +340,7 @@ static const CGFloat BA_ImagesHeightOfTopScrollView = 54.0f;
 #pragma mark 创建带有图片的根视图
 - (void)createImagesRootView
 {
-    //创建主滚动视图
+    // 创建主滚动视图
     _rootScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, BA_ImagesHeightOfTopScrollView , self.bounds.size.width, self.bounds.size.height - BA_ImagesHeightOfTopScrollView)];
     _rootScrollView.delegate = self;
     _rootScrollView.pagingEnabled = YES;
@@ -457,7 +458,7 @@ static const CGFloat BA_ImagesHeightOfTopScrollView = 54.0f;
     if (scrollView == _rootScrollView)
     {
         //调整顶部滑条按钮状态
-        int index = (int)scrollView.contentOffset.x/self.bounds.size.width ;
+        NSInteger index = scrollView.contentOffset.x/self.bounds.size.width ;
         [self.hmSegmentedControl setSelectedSegmentIndex:index animated:YES];
         [self segmentClicked:index];
     }

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "BASegmentVC.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +21,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
     self.window.backgroundColor = UIColor.whiteColor;
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[BASegmentVC new]];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
     self.window.rootViewController = nav;
     [NSThread sleepForTimeInterval:1.0]; //延长启动页面时间
     [self.window makeKeyAndVisible];

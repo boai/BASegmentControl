@@ -14,12 +14,11 @@
 		C4D107D01CE2F98200F735B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D107CF1CE2F98200F735B9 /* Assets.xcassets */; };
 		C4D107D31CE2F98200F735B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4D107D11CE2F98200F735B9 /* LaunchScreen.storyboard */; };
 		C4D107DF1CE2F9BD00F735B9 /* BASegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D107DC1CE2F9BD00F735B9 /* BASegmentControl.m */; };
-		C4D107E01CE2F9BD00F735B9 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D107DE1CE2F9BD00F735B9 /* HMSegmentedControl.m */; };
 		C4D107E91CE2F9C800F735B9 /* view1.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D107E21CE2F9C800F735B9 /* view1.m */; };
 		C4D107EA1CE2F9C800F735B9 /* view2.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D107E41CE2F9C800F735B9 /* view2.m */; };
 		C4D107EB1CE2F9C800F735B9 /* view3.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D107E61CE2F9C800F735B9 /* view3.m */; };
 		C4D107EC1CE2F9C800F735B9 /* view4.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D107E81CE2F9C800F735B9 /* view4.m */; };
-		C4D107EF1CE2F9CF00F735B9 /* BASegmentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D107EE1CE2F9CF00F735B9 /* BASegmentVC.m */; };
+		C4ECCE541CF2974800987421 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ECCE531CF2974800987421 /* HMSegmentedControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +34,6 @@
 		C4D107D41CE2F98200F735B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4D107DB1CE2F9BD00F735B9 /* BASegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BASegmentControl.h; sourceTree = "<group>"; };
 		C4D107DC1CE2F9BD00F735B9 /* BASegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BASegmentControl.m; sourceTree = "<group>"; };
-		C4D107DD1CE2F9BD00F735B9 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
-		C4D107DE1CE2F9BD00F735B9 /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
 		C4D107E11CE2F9C800F735B9 /* view1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = view1.h; sourceTree = "<group>"; };
 		C4D107E21CE2F9C800F735B9 /* view1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = view1.m; sourceTree = "<group>"; };
 		C4D107E31CE2F9C800F735B9 /* view2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = view2.h; sourceTree = "<group>"; };
@@ -45,8 +42,8 @@
 		C4D107E61CE2F9C800F735B9 /* view3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = view3.m; sourceTree = "<group>"; };
 		C4D107E71CE2F9C800F735B9 /* view4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = view4.h; sourceTree = "<group>"; };
 		C4D107E81CE2F9C800F735B9 /* view4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = view4.m; sourceTree = "<group>"; };
-		C4D107ED1CE2F9CF00F735B9 /* BASegmentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BASegmentVC.h; sourceTree = "<group>"; };
-		C4D107EE1CE2F9CF00F735B9 /* BASegmentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BASegmentVC.m; sourceTree = "<group>"; };
+		C4ECCE521CF2974800987421 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		C4ECCE531CF2974800987421 /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +81,6 @@
 				C4D107C71CE2F98200F735B9 /* AppDelegate.m */,
 				C4D107C91CE2F98200F735B9 /* ViewController.h */,
 				C4D107CA1CE2F98200F735B9 /* ViewController.m */,
-				C4D107ED1CE2F9CF00F735B9 /* BASegmentVC.h */,
-				C4D107EE1CE2F9CF00F735B9 /* BASegmentVC.m */,
 				C4D107E11CE2F9C800F735B9 /* view1.h */,
 				C4D107E21CE2F9C800F735B9 /* view1.m */,
 				C4D107E31CE2F9C800F735B9 /* view2.h */,
@@ -116,8 +111,8 @@
 			children = (
 				C4D107DB1CE2F9BD00F735B9 /* BASegmentControl.h */,
 				C4D107DC1CE2F9BD00F735B9 /* BASegmentControl.m */,
-				C4D107DD1CE2F9BD00F735B9 /* HMSegmentedControl.h */,
-				C4D107DE1CE2F9BD00F735B9 /* HMSegmentedControl.m */,
+				C4ECCE521CF2974800987421 /* HMSegmentedControl.h */,
+				C4ECCE531CF2974800987421 /* HMSegmentedControl.m */,
 			);
 			path = BASegmentControl;
 			sourceTree = "<group>";
@@ -200,8 +195,7 @@
 				C4D107C81CE2F98200F735B9 /* AppDelegate.m in Sources */,
 				C4D107EC1CE2F9C800F735B9 /* view4.m in Sources */,
 				C4D107C51CE2F98200F735B9 /* main.m in Sources */,
-				C4D107E01CE2F9BD00F735B9 /* HMSegmentedControl.m in Sources */,
-				C4D107EF1CE2F9CF00F735B9 /* BASegmentVC.m in Sources */,
+				C4ECCE541CF2974800987421 /* HMSegmentedControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +344,7 @@
 				C4D107D91CE2F98200F735B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
