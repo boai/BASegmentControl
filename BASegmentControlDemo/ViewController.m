@@ -66,7 +66,7 @@
     if (!_segmentedControl)
     {
         _segmentedControl = [[HMSegmentedControl alloc] initWithFrame:CGRectMake(0, 64, KSCREEN_WIDTH, 40)];
-        _segmentedControl.sectionTitles = @[@"Worldwide", @"Local", @"Headlines"];
+        _segmentedControl.sectionTitles = @[@"boai", @"博爱", @"博爱3", @"博爱4"];
         _segmentedControl.autoresizingMask = UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleWidth;
         _segmentedControl.selectedSegmentIndex = 0;
         _segmentedControl.backgroundColor = [UIColor whiteColor];
