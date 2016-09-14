@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4C48DC41D88F6060051C97A /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C48DC31D88F6060051C97A /* HMSegmentedControl.m */; };
 		C4D107C51CE2F98200F735B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D107C41CE2F98200F735B9 /* main.m */; };
 		C4D107C81CE2F98200F735B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D107C71CE2F98200F735B9 /* AppDelegate.m */; };
 		C4D107CB1CE2F98200F735B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D107CA1CE2F98200F735B9 /* ViewController.m */; };
@@ -17,10 +18,11 @@
 		C4D107EA1CE2F9C800F735B9 /* view2.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D107E41CE2F9C800F735B9 /* view2.m */; };
 		C4D107EB1CE2F9C800F735B9 /* view3.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D107E61CE2F9C800F735B9 /* view3.m */; };
 		C4D107EC1CE2F9C800F735B9 /* view4.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D107E81CE2F9C800F735B9 /* view4.m */; };
-		C4ECCE541CF2974800987421 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ECCE531CF2974800987421 /* HMSegmentedControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C4C48DC21D88F6060051C97A /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		C4C48DC31D88F6060051C97A /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
 		C4D107C01CE2F98200F735B9 /* BASegmentControlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BASegmentControlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D107C41CE2F98200F735B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4D107C61CE2F98200F735B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,8 +41,6 @@
 		C4D107E61CE2F9C800F735B9 /* view3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = view3.m; sourceTree = "<group>"; };
 		C4D107E71CE2F9C800F735B9 /* view4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = view4.h; sourceTree = "<group>"; };
 		C4D107E81CE2F9C800F735B9 /* view4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = view4.m; sourceTree = "<group>"; };
-		C4ECCE521CF2974800987421 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
-		C4ECCE531CF2974800987421 /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +106,8 @@
 		C4D107DA1CE2F9BD00F735B9 /* BASegmentControl */ = {
 			isa = PBXGroup;
 			children = (
-				C4ECCE521CF2974800987421 /* HMSegmentedControl.h */,
-				C4ECCE531CF2974800987421 /* HMSegmentedControl.m */,
+				C4C48DC21D88F6060051C97A /* HMSegmentedControl.h */,
+				C4C48DC31D88F6060051C97A /* HMSegmentedControl.m */,
 			);
 			path = BASegmentControl;
 			sourceTree = "<group>";
@@ -183,13 +183,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4D107EB1CE2F9C800F735B9 /* view3.m in Sources */,
+				C4C48DC41D88F6060051C97A /* HMSegmentedControl.m in Sources */,
 				C4D107E91CE2F9C800F735B9 /* view1.m in Sources */,
 				C4D107EA1CE2F9C800F735B9 /* view2.m in Sources */,
 				C4D107CB1CE2F98200F735B9 /* ViewController.m in Sources */,
 				C4D107C81CE2F98200F735B9 /* AppDelegate.m in Sources */,
 				C4D107EC1CE2F9C800F735B9 /* view4.m in Sources */,
 				C4D107C51CE2F98200F735B9 /* main.m in Sources */,
-				C4ECCE541CF2974800987421 /* HMSegmentedControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
